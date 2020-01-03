@@ -1,0 +1,60 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Lil Peep</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'>
+		  <link rel='icon' href='favicon.ico' type='image/x-icon'/ >
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="table">
+  <div class="table-cell">
+    <div id="player">
+    <div id="main">
+      <div>
+        <div class="playback_controls">
+          <h2 id="title">Lil Peep</h2>
+          <h3 id="artist">Lil Peep</h3>
+          <div class="time-holder">
+            <div class="slider">
+              <div class="fill"></div>
+            </div>
+          </div>
+          <div>
+          <i class="fa fa-bars menu"></i>
+          <div class="buttons">
+            <i class="fa fa-backward" id="back"></i>
+            <i class="fa fa-play loading" id="playpause"></i>
+            <i class="fa fa-forward" id="next"></i>
+          </div>
+        </div>
+        </div>
+        <audio id="playbar" controls></audio>
+      </div>
+    </div>
+    <ol id="playlist"> 
+  <li class="playing"><a class="track" href="1.mp3">Benz Truck</a> <span class="time"></span></li>
+  <li class="playing"><a class="track" href="2.mp3">Save That Shit</a> <span class="time"></span></li>
+  <li class="playing"><a class="track" href="3.mp3">Awful Things</a> <span class="time"></span></li>
+  <li class="playing"><a class="track" href="4.mp3">U Said</a> <span class="time"></span></li>
+  <li class="playing"><a class="track" href="5.mp3">Better Off (Dying) </a> <span class="time"></span></li>
+  <li class="playing"><a class="track" href="6.mp3">The Brightside</a> <span class="time"></span></li>
+  <li class="playing"><a class="track" href="7.mp3">Problems</a> <span class="time"></span></li>
+    </ol>
+  </div>
+  </div>
+</div>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
